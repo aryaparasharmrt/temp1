@@ -21,7 +21,7 @@ response = requests.get(api_url, headers=headers)
 if response.status_code == 200:
      issues = response.json()
      for issue in issues:
-       print(f"Issue #{issue[3]}: {issue['Write API']}")
+       print(f"Issue #{issue[8]}: {issue['iugkfbv']}")
 else:
   print(f"Error: {response.status_code} - {response.text}")
       
